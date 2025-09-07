@@ -45,6 +45,6 @@ public class Main {
         WebElement continueClick = driver.findElement(By.xpath("//input[@id='continue']"));
         continueClick.click();
         Thread.sleep(2000);
-        driver.close();
+        driver.quit();
     }
 }
