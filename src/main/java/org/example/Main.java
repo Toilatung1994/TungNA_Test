@@ -10,6 +10,6 @@ public class Main {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://accounts.saucelabs.com/am/XUI/#login/");
-        driver.quit();
+        driver.close();
     }
 }
